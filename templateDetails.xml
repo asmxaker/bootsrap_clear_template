@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 3/0//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/3.0/template-install.dtd">
+<extension version="3.0" type="template" client="site">
+	<name>Bootstrap_clear</name>
+	<version>1.0</version>
+	<creationDate>06/17/2016</creationDate>
+	<author> Svetка Sokolova</author>
+	<authorEmail></authorEmail>
+	<authorUrl></authorUrl>
+	<copyright>GNU/GPL</copyright>
+	<description><![CDATA[ <h1>Чистый шаблон с использованием BOOTSTRAP 3</h1> ]]></description>
+	<files>
+		<folder>css</folder>
+		<folder>js</folder>
+		<folder>fonts</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<filename>index.php</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>favicon.ico</filename>
+		<filename>template_preview.png</filename>
+		<filename>params.ini</filename> 
+	</files>
+	<positions>
+		<position>logo</position>
+		<position>search</position>
+		<position>breadcrumb</position>
+		<position>slider</position>
+		<position>user1</position>
+		<position>user2</position>
+		<position>user3</position>
+		<position>header</position>
+		<position>left</position>
+		<position>right</position>
+		<position>copyright</position>
+		<position>footer</position>
+	</positions>
+</extension>
