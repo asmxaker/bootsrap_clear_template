@@ -76,8 +76,7 @@ if($this->countModules('left and right') == 1) $contentwidth = "6";
 <?php if($this->countModules('slider')) : ?>
 	<jdoc:include type="modules" name="slider" style="xhtml" />
 <?php endif; ?>
- 
- 
+
 <div class="container main">
 <div class="row">
 <?php if($this->countModules('left')) : ?>
@@ -99,7 +98,6 @@ if($this->countModules('left and right') == 1) $contentwidth = "6";
 <jdoc:include type="message" /> 
 <jdoc:include type="component" style="xhtml" />
 </div> <!--конец блока контента-->
-
 <?php if($this->countModules('right')) : ?>
 <div class="col-md-3">
 <jdoc:include type="modules" name="right" style="xhtml" />
@@ -107,8 +105,6 @@ if($this->countModules('left and right') == 1) $contentwidth = "6";
 <?php endif; ?> 
 </div>
 </div>
-
-
 <footer>
 <div class="container copyright">
 	<?php if($this->countModules('footer')) : ?>
@@ -116,20 +112,12 @@ if($this->countModules('left and right') == 1) $contentwidth = "6";
 	<?php endif; ?>
 <hr />
 <div class="clearfix"></div> 
-
-
 	<?php if($this->countModules('copyright')) : ?>
 		<jdoc:include type="modules" name="copyright" style="xhtml" />
 	<?php endif; ?> 
 </div> 
 </footer>
-
 </div>
-</div>
-
-
-	
-	
-
+</div>	
 </body>
 </html>
